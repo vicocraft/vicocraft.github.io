@@ -16,7 +16,7 @@
 
 ## Instalando a versão do Minecraft
 
-1. Vá até a [página de versão](version.md) pra saber qual versão está sendo usada no server, além da lista de mods;
+1. Vá até a [página de versão](version.md) pra saber qual versão está sendo usada no server, além da lista de mods. Se estiver seguindo o tutorial fora do VicoCraft, apenas escolha a sua versão do Minecraft e Forge desejadas;
 2. Na pasta `profiles` copie a pasta `Default` e renomeie a cópia com o número da versão do Minecraft desejada (ex.: `1.10.2`);
 3. Novamente no launcher, selecione o perfil *Default* e clique em *"New Profile"*;
 4. Dê ao perfil o nome *"Vanilla <número da versão>"* (ex.: *Vanilla 1.10.2*), marque a caixa "Game Directory" e coloque no campo do caminho `<caminho-da-pasta-.minecraft>\profiles\<número da versão>` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.10.2`). Desmarque "Automatically ask Mojang for assistance with fixing crashes" e certifique-se de que o campo "Use version" está setado para a versão correspondente (ex.: *1.10.2*).
