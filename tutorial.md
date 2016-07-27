@@ -26,8 +26,8 @@
 
 ## Instalação do FORGE
 
-1. Acesse o [repositório do Forge](http://files.minecraftforge.net) e navegue até a versão pedida (ex.: se for a versão __1.10.2__ clique no botão __1.10__ e daí no menu que abrir escolha a versão __1.10.2__);
-2. Clique em *"Show all downloads"* e escolha a versão pedida pelo master, geralmente é a primeira da lista (a última);
+1. Acesse o [repositório do Forge](http://files.minecraftforge.net) e navegue até a versão pedida/desejada (ex.: se for a versão __1.10.2__ clique no botão __1.10__ e daí no menu que abrir escolha a versão __1.10.2__);
+2. Clique em *"Show all downloads"* e escolha a versão pedida pelo master/desejada, geralmente é a primeira da lista (a última);
 3. Clique no botão ℹ️ ao lado de *"Installer-win"* para baixar o instalador do Forge sem precisar passar pelo adf.ly;
 4. Salve o .exe do instalador em uma pasta temporária (**não** a mesma do minecraft);
 5. Execute o instalador e clique em "Install client". **Não mude o caminho da pasta de baixo!**
