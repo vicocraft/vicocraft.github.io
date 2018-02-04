@@ -20,11 +20,11 @@
 ## Instalando a versão do Minecraft
 
 1. Vá até a [página de versão](version.md) pra saber qual versão está sendo usada no server, além da lista de mods. Se estiver seguindo o tutorial fora do VicoCraft, apenas escolha a sua versão do Minecraft e Forge desejadas;
-2. Na pasta `profiles` copie a pasta `Default` e renomeie a cópia com o número da versão do Minecraft desejada (ex.: `1.10.2`);
+2. Na pasta `profiles` copie a pasta `Default` e renomeie a cópia com o número da versão do Minecraft desejada (ex.: `1.12.2`);
 ![](img/tutorial/copiar_1.png)
 3. Novamente no launcher, selecione o perfil *Default* e clique em *"New Profile"*;
 ![](img/tutorial/launcher_2.png)
-4. Dê ao perfil o nome *"<número da versão> Vanilla"* (ex.: *1.10.2 Vanilla*), marque a caixa "Game Directory" e coloque no campo do caminho `<caminho-da-pasta-.minecraft>\profiles\<número da versão>_vanilla` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.10.2_vanilla`). Desmarque "Automatically ask Mojang for assistance with fixing crashes" e certifique-se de que o campo "Use version" está setado para a versão correspondente (ex.: *1.10.2*).
+4. Dê ao perfil o nome *"<número da versão>"* (ex.: *1.12.2*), marque a caixa "Game Directory" e coloque no campo do caminho `<caminho-da-pasta-.minecraft>\profiles\<número da versão>` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.12.2`). Desmarque "Automatically ask Mojang for assistance with fixing crashes" e certifique-se de que o campo "Use version" está setado para a versão correspondente (ex.: *1.12.2*).
 ![](img/tutorial/profile_vanilla.png)
 5. Clique em "Save Profile", selecione o perfil que acabou de criar/editar e clique em Play. Ao entrar no menu inicial do jogo, configure os detalhes adicionais da versão e feche o jogo.
 6. Siga para **Instalação do FORGE** ou **Atualização do FORGE** caso queira atualizar a versão do Forge **para a mesma versão** do Minecraft.
@@ -32,7 +32,7 @@
 
 ## Instalação do FORGE
 
-1. Acesse o [repositório do Forge](http://files.minecraftforge.net) e navegue até a versão pedida/desejada (ex.: se for a versão __1.10.2__ clique no botão __1.10__ e daí no menu que abrir escolha a versão __1.10.2__);
+1. Acesse o [repositório do Forge](http://files.minecraftforge.net) e navegue até a versão pedida/desejada (ex.: se for a versão __1.12.2__ clique no botão __1.12__ e daí no menu que abrir escolha a versão __1.12.2__);
 ![](img/tutorial/site_forge_1.png)
 2. Clique em *"Show all downloads"* e escolha a versão pedida pelo master/desejada, geralmente é a primeira da lista (a última);
 3. Clique no botão "*(i)*" ao lado de *"Installer-win"* (ou *"installer"* caso esteja no Linux) para baixar o instalador do Forge sem precisar passar pelo adf.ly;
@@ -41,13 +41,16 @@
 5. Execute o instalador e clique em "Install client". **Não mude o caminho da pasta de baixo!**
 ![](img/tutorial/forge_setup_1.png)
 6. Deixe ele instalar. Ele vai mostrar uma mensagem de confirmação. Dê OK;
-7. (OPCIONAL). Copie a pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>` para `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_forge` para manter as configurações da versão vanilla para o Forge;
+7. (OPCIONAL). Copie a pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>` para `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_vicocraft` para manter as configurações da versão vanilla para o Forge;
 ![](img/tutorial/copiar_2.png)
 8. Inicie o launcher. Você verá que surgiu um perfil novo chamado *"forge"*. Selecione-o e clique em *Edit Profile*;
-9. Renomeie o perfil pra *"<número-da-versão> Forge"* (ex.: 1.11.2 Forge), marque o Game Directory e preencha o campo com `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_forge` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.10.2_forge`). **Opcionalmente** verifique se o campo *"Use Version"* está de acordo com a versão do Forge que você baixou e, caso tenha crashes frequentes, marque a opção *"Launcher Visibility"* como *"Keep the launcher open"* para pegar logs;
+9. Renomeie o perfil pra *"<número-da-versão> VicoCraft"* (ex.: 1.12.2 VicoCraft), marque o Game Directory e preencha o campo com `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_vicocraft` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.12.2_vicocraft`). **Opcionalmente** verifique se o campo *"Use Version"* está de acordo com a versão do Forge que você baixou e, caso tenha crashes frequentes, marque a opção *"Launcher Visibility"* como *"Keep the launcher open"* para pegar logs;
 ![](img/tutorial/profile_forge.png)
 10. Execute o profile "`<número-da-versão>` Forge", espere chegar na tela de menu do jogo e saia;
-11. Siga para a [página "Versão Atual"](version.md) para baixar os mods (caso tenha dúvidas ou não consiga baixar algum entre em contato comigo). Coloque os mods na pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_forge\mods` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.11.2_forge\mods`) e **não** diretamente na pasta `.minecraft\mods`! Veja como fica cada subpasta em "profiles":
+11. Siga para o [repositório do modpack](https://github.com/vicocraft/vicocraft) para baixá-lo (caso tenha dúvidas ou não consiga baixar algum entre em contato comigo). Junte o conteúdo do repositório à pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_vicocraft` (substituindo qualquer arquivo já existente)!
+
+Veja como ficaria a estrutura final (ignore o nome da pasta errado na barra de navegação):
+
 ![](img/tutorial/profiles_forge_final.png)
 
 
@@ -59,12 +62,15 @@ Para atualizar a versão do FORGE em uma mesma versão do Minecraft (não para i
 2. Inicie o Launcher Minecraft. Você verá que surgiu um perfil novo chamado *"forge"*;
 3. Clique na aba *"Profile Editor"*. Note a coluna *version* na lista de Profiles;
 ![](img/tutorial/profiles_comparision.png)
-4. Selecione o perfil da versão à ser atualizada (ex.: 1.11.2 Forge) e dê duplo clique;
+4. Selecione o perfil da versão à ser atualizada (ex.: 1.12.2 Forge) e dê duplo clique;
 5. No campo "Use Version", selecione **a mesma versão** do Forge que o perfil *"forge"* criado pelo instalador;
 6. IMPORTANTE PRA EVITAR PROBLEMA! Apague o perfil "forge" criado acima (botão direito no perfil e *"Delete Profile"*;
 ![](img/tutorial/apagar_profile.png)
-7. Inicie o Minecraft usando o Perfil que você acabou de alterar (ex.: Forge 1.10.2);
+7. Inicie o Minecraft usando o Perfil que você acabou de alterar (ex.: Forge 1.12.2);
 8. (OPCIONAL) Apague a pasta correspondente às versões antigas do Forge (**para a mesma versão do Minecraft**) em `<pasta-do-minecraft>\libraries\net\minecraftforge\forge`. Não apague as pastas de versões do forge para outras versões do Minecraft!
 ![](img/tutorial/qual_apagar.png)
-9. Siga para a [página "Versão Atual"](version.md) para verificar atualizações para os mods (caso tenha dúvidas ou não consiga baixar algum entre em contato comigo), e lembre-se novamente: coloque os seus mods na pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_forge\mods` (ex.: `C:\Users\Fulano\AppData\Roaming\.minecraft\profiles\1.12.2_forge\mods`) e **não** diretamente na pasta `.minecraft\mods`! Veja como fica cada subpasta em "profiles":
+9. Siga para o [repositório do modpack](https://github.com/vicocraft/vicocraft) para verificar atualizações (caso tenha dúvidas ou não consiga baixar algum entre em contato comigo), e lembre-se novamente: junte o conteúdo do repositório à pasta `<caminho-da-pasta-.minecraft>\profiles\<número-da-versão>_vicocraft` (substituindo qualquer arquivo já existente)!
+
+Veja como ficaria a estrutura final (ignore o nome da pasta errado na barra de navegação):
+
 ![](img/tutorial/profiles_forge_final.png)

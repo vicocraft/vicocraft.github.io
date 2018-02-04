@@ -1,5 +1,5 @@
 # VicoCraft
 
 [Início](index.md)
-[Versão Atual](version.md)
+[Modpack](https://github.com/vicocraft/vicocraft)
 [Tutorial](tutorial.md)
